@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{e6a10bb8-2018-4a13-ac86-326eb2ff6644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{188747c5-c4a6-4a9d-aa3b-ba40094b5837}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="card.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gaming_table.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pause_menu.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="rules.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="end_game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="card.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gaming_table.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="pause_menu.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="rules.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="end_game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
