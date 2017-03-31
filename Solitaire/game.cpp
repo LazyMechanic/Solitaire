@@ -16,7 +16,7 @@ bool Game::Init()
 	}
 
 	// Create window
-	m_window.create(sf::VideoMode(800, 600), "Soliter", sf::Style::Titlebar | sf::Style::Close);
+	m_window.create(sf::VideoMode(800, 600), "Solitaire", sf::Style::Titlebar | sf::Style::Close);
 	m_window.setIcon(32, 32, m_windowIcon.getPixelsPtr());
 	m_window.setVerticalSyncEnabled(true);
 
